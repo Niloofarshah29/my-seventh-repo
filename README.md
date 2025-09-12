@@ -1,6 +1,6 @@
 # my-seventh-repo
 just testing my repo
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonif
 
 app = Flask(__name__)
 notes = []
