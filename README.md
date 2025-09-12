@@ -1,4 +1,4 @@
-# my-seventh-repo
+# my-seventh-rep
 just testing my repo
 from flask import Flask, request, jsonify
 
