@@ -3,7 +3,7 @@ just testing my repo
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
-notes = []
+note = []
 
 @app.route("/notes", methods=["GET", "POST"])
 def manage_notes():
