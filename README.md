@@ -13,5 +13,5 @@ def manage_notes():
         return jsonify({"message": "Note added!"}), 201
     return jsonify(notes)
 
-if __name__ == "__main__":
+i __name__ == "__main__":
     app.run(debug=True)
