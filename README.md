@@ -11,7 +11,7 @@ def manage_notes():
         note = request.json.get("note")
         notes.append(note)
         return jsonify({"message": "Note added!"}), 201
-    retur jsonify(notes)
+    return jsonify(notes)
 
 if __name__ == "__main__":
     app.run(debug=True)
