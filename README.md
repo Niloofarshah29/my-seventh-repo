@@ -6,7 +6,7 @@ app = Flask(__name__)
 notes = []
 
 @app.route("/notes", methods=["GET", "POST"])
-def manage_notes():
+de manage_notes():
     if request.method == "POST":
         note = request.json.get("note")
         notes.append(note)
